@@ -7,3 +7,5 @@ def fnabc(request):
     return HttpResponse("hello world")
 def fnmno(req):
     return render(req,'demofile1.html')
+def fnxyz(req):  
+    return render(req,'demofile2.html')
